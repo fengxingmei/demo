@@ -11,7 +11,7 @@ import javax.validation.Valid;
 @RestController
 public class InfoController {
 
-    @Value("${spring.datasource.driver-class-name}")
+//    @Value("${spring.datasource.driver-class-name}")
     private String driverClass;
 
     @RequestMapping("/info")
